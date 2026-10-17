@@ -1,11 +1,11 @@
 # 🐳 Docker Doctor
 
-Short one-line description
 
-Badges
-────────────────────────────────────
-Build | Node.js | TypeScript | License
+Local-first Docker diagnostic CLI with root-cause analysis.
 
+[![Node.js](https://img.shields.io/badge/Node.js-22%2B-green)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 ## 📌 Overview
 ────────────────────────────────────
@@ -214,7 +214,7 @@ docker-doctor/
 └── .gitignore
 
 
-## 🛠️ Tech Stack
+##  Tech Stack
 ────────────────────────────────────
 
 | Technology | Purpose |
@@ -226,7 +226,7 @@ docker-doctor/
 | tsx | Development execution |
 
 
-## 📋 Requirements
+##  Requirements
 ────────────────────────────────────
 
 - Node.js 22+
@@ -235,7 +235,7 @@ docker-doctor/
 - Git
 
 
-## 🚀 Installation
+##  Installation
 ────────────────────────────────────
 
 ### Clone
@@ -266,7 +266,7 @@ npm run build
 npm start
 
 
-## 🖥️ Example Output (simplified)
+##  Example Output (simplified)
 ────────────────────────────────────
 
 Show an actual output example.
@@ -312,7 +312,7 @@ Affected Services
 ...
 
 
-## 🔍 Diagnostics Explained
+##  Diagnostics Explained
 ────────────────────────────────────
 
 Explain what each diagnostic actually means.
@@ -369,7 +369,7 @@ Docker Doctor checks:
 - Kafka configuration indicators
 
 
-## 🧪 Testing
+##  Testing
 ────────────────────────────────────
 
 Explain how to reproduce diagnostics.
@@ -389,7 +389,7 @@ Expected diagnosis:
 Database is configured to use localhost
 
 
-## 🧩 Design Principles
+##  Design Principles
 ────────────────────────────────────
 
 ### Local-first
@@ -417,7 +417,7 @@ Docker Doctor should explain
 WHY something is considered a problem.
 
 
-## ⚠️ Current Limitations
+##  Current Limitations
 ────────────────────────────────────
 
 Be honest about what v1 does not do.
@@ -429,7 +429,7 @@ Be honest about what v1 does not do.
 - Diagnostic rules are intentionally deterministic
 
 
-## 🗺️ Roadmap
+##  Roadmap
 ────────────────────────────────────
 
 ### Completed
@@ -454,7 +454,7 @@ Be honest about what v1 does not do.
 - Plugin-based diagnostic rules
 
 
-## 🤝 Contributing
+##  Contributing
 ────────────────────────────────────
 
 Explain:
