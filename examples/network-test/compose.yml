@@ -1,0 +1,19 @@
+services:
+
+  backend:
+    image: alpine
+    environment:
+      DATABASE_HOST: localhost
+      DATABASE_PORT: 5432
+    command: >
+      sh -c "
+      echo 'Backend starting...' &&
+      echo 'Trying to connect to localhost:5432' &&
+      sleep 300
+      "
+
+  postgres:
+    image: postgres:18
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: testdb

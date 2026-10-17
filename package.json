@@ -1,0 +1,16 @@
+{
+  "name": "docker-doctor",
+  "version": "1.0.0",
+  "description": "Docker diagnostic CLI",
+  "main": "dist/cli.js",
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.1",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

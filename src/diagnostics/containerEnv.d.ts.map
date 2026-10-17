@@ -1,0 +1,1 @@
+{"version":3,"file":"containerEnv.d.ts","sourceRoot":"","sources":["containerEnv.ts"],"names":[],"mappings":"AAEA,MAAM,WAAW,oBAAoB;IACjC,aAAa,EAAE,MAAM,CAAC;IACtB,SAAS,EAAE,MAAM,CAAC,MAAM,EAAE,MAAM,CAAC,CAAC;CACrC;AAED,wBAAgB,uBAAuB,CACnC,aAAa,EAAE,MAAM,GACtB,OAAO,CAAC,oBAAoB,CAAC,CAyD/B"}
